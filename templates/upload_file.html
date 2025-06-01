@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wafer Fault Detection</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto+Mono&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="glow">🛰️ Wafer Fault Detection System</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data" class="upload-form">
+      <label for="file-upload" class="custom-file-upload">
+        <input id="file-upload" type="file" name="file" accept=".csv" />
+        Select CSV File
+      </label>
+      <button type="submit" class="glow-button">🔍 Run Prediction</button>
+    </form>
+    <p class="note">Only .csv files are accepted. The system will return a downloadable result.</p>
+  </div>
+</body>
+</html>

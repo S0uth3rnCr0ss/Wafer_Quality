@@ -1,0 +1,12 @@
+pandas
+pyyaml 
+boto3
+seaborn
+scikit-learn
+xgboost
+pymongo
+python-dotenv
+pip-chill 
+ipykernel
+httptools 
+flask

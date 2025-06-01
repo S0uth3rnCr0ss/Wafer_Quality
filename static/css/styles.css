@@ -1,0 +1,43 @@
+body {
+  background-color: #0b0f14;
+  color: #00ff99;
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #121822;
+  border: 2px solid #00ff99;
+  padding: 50px;
+  border-radius: 12px;
+  width: 450px;
+  margin: 100px auto;
+  box-shadow: 0 0 20px #00ff99aa;
+  text-align: center;
+}
+
+h1.glow {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 28px;
+  text-shadow: 0 0 8px #00ff99;
+}
+
+.glow-button {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0bff95;
+  border: none;
+  padding: 12px 24px;
+  margin: 10px;
+  color: #000;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ff99;
+  transition: 0.3s;
+}
+
+.glow-button:hover {
+  background-color: #00e689;
+  box-shadow: 0 0 16px #00ff99, 0 0 8px #00ff99 inset;
+}

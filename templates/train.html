@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Faulty Wafers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto Mono', monospace;
+      background-color: #0a0a0a;
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      margin-bottom: 10px;
+      text-shadow: 0 0 10px #00ffd5;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+      color: #cccccc;
+    }
+
+    .btn {
+      background-color: #00ffd5;
+      color: #0a0a0a;
+      padding: 12px 24px;
+      margin: 10px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .btn:hover {
+      background-color: #00c4aa;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Training is completed</h1>
+  <p>TNow you can upload file to predict the quality of the wafers</p>
+  <button class="btn" onclick="location.href='/predict'">Predict Quality</button>
+
+</body>
+</html>
