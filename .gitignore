@@ -5,8 +5,8 @@ MongoDB_cred.txt
 build
 logs
 temp
-model.pkl
-preprocessor.pkl
+
 pred_artifacts
 Prediction
 .env
+__pycache__
